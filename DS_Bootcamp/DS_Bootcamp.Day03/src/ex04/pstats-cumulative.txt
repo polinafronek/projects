@@ -1,0 +1,621 @@
+         398365 function calls (398313 primitive calls) in 1.398 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    1.398    1.398 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/src/ex04/financial_enhanced.py:18(parser)
+        1    0.000    0.000    1.170    1.170 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/_request_methods.py:69(request)
+        1    0.000    0.000    1.170    1.170 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/_request_methods.py:147(request_encode_url)
+        1    0.000    0.000    1.170    1.170 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/poolmanager.py:409(urlopen)
+        1    0.000    0.000    1.169    1.169 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:592(urlopen)
+        1    0.000    0.000    1.169    1.169 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:377(_make_request)
+        1    0.000    0.000    1.086    1.086 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:485(getresponse)
+      936    0.002    0.000    1.084    0.001 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:706(readinto)
+      936    0.003    0.000    1.079    0.001 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1289(recv_into)
+      936    0.002    0.000    1.075    0.001 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1129(read)
+      936    1.074    0.001    1.074    0.001 {method 'read' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.806    0.806 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1386(getresponse)
+        1    0.000    0.000    0.806    0.806 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:324(begin)
+       26    0.000    0.000    0.805    0.031 {method 'readline' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.775    0.775 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:291(_read_status)
+        4    0.002    0.000    0.280    0.070 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.280    0.280 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:577(__init__)
+        1    0.000    0.000    0.280    0.280 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:916(read)
+        1    0.000    0.000    0.280    0.280 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:864(_raw_read)
+        1    0.000    0.000    0.280    0.280 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:807(_fp_read)
+        1    0.000    0.000    0.280    0.280 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:463(read)
+        1    0.000    0.000    0.280    0.280 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:635(_safe_read)
+        1    0.000    0.000    0.208    0.208 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:209(__init__)
+        1    0.000    0.000    0.205    0.205 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:650(_feed)
+        1    0.000    0.000    0.205    0.205 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:449(feed)
+        1    0.000    0.000    0.205    0.205 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:104(feed)
+        2    0.017    0.008    0.205    0.103 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:134(goahead)
+     3206    0.024    0.000    0.125    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:301(parse_starttag)
+        1    0.000    0.000    0.083    0.083 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:1085(_validate_conn)
+        1    0.000    0.000    0.083    0.083 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:669(connect)
+     3206    0.006    0.000    0.062    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:142(handle_starttag)
+     3206    0.009    0.000    0.052    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:987(handle_starttag)
+        1    0.000    0.000    0.044    0.044 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:846(_ssl_wrap_socket_and_match_hostname)
+     3034    0.007    0.000    0.041    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:379(parse_endtag)
+        1    0.000    0.000    0.039    0.039 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:192(_new_conn)
+        1    0.000    0.000    0.039    0.039 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/connection.py:27(create_connection)
+        1    0.000    0.000    0.033    0.033 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/ssl_.py:410(ssl_wrap_socket)
+        1    0.000    0.000    0.033    0.033 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/ssl_.py:508(_ssl_wrap_socket_impl)
+        1    0.000    0.000    0.033    0.033 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:449(wrap_socket)
+        1    0.000    0.000    0.033    0.033 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:990(_create)
+        1    0.000    0.000    0.033    0.033 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1365(do_handshake)
+        1    0.033    0.033    0.033    0.033 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.031    0.031 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:245(parse_headers)
+     3208    0.005    0.000    0.031    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:204(handle_endtag)
+        1    0.000    0.000    0.031    0.031 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:213(_read_headers)
+        1    0.031    0.031    0.031    0.031 {method 'connect' of '_socket.socket' objects}
+     6670    0.007    0.000    0.030    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:826(endData)
+     3205    0.003    0.000    0.026    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:1053(handle_endtag)
+     3207    0.006    0.000    0.023    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:1626(__init__)
+    26562    0.020    0.000    0.020    0.000 {method 'match' of 're.Pattern' objects}
+        4    0.000    0.000    0.020    0.005 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:2723(find_all)
+        4    0.000    0.000    0.020    0.005 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:1079(_find_all)
+        4    0.000    0.000    0.020    0.005 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:163(find_all)
+       35    0.003    0.000    0.020    0.001 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:129(filter)
+     3206    0.009    0.000    0.014    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/__init__.py:382(_replace_cdata_list_attribute_values)
+     6995    0.003    0.000    0.013    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:721(match)
+     3218    0.004    0.000    0.010    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:867(object_was_parsed)
+     3206    0.002    0.000    0.010    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:345(check_for_whole_start_tag)
+        1    0.000    0.000    0.010    0.010 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:528(load_default_certs)
+        1    0.010    0.010    0.010    0.010 {method 'set_default_verify_paths' of '_ssl._SSLContext' objects}
+     3479    0.003    0.000    0.009    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:538(matches_tag)
+     3205    0.004    0.000    0.008    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:950(_popToTag)
+    12767    0.005    0.000    0.008    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_markupbase.py:44(updatepos)
+     3218    0.004    0.000    0.008    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:1291(__new__)
+     7290    0.001    0.000    0.007    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/__init__.py:122(unescape)
+        1    0.000    0.000    0.006    0.006 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:960(getaddrinfo)
+     9643    0.006    0.000    0.006    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:376(setup)
+        1    0.006    0.006    0.006    0.006 {built-in method _socket.getaddrinfo}
+    16262    0.005    0.000    0.005    0.000 {method 'group' of 're.Match' objects}
+      536    0.001    0.000    0.005    0.000 {method 'sub' of 're.Pattern' objects}
+      976    0.002    0.000    0.005    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:616(_attribute_match)
+     3218    0.003    0.000    0.005    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:732(string_container)
+     9557    0.005    0.000    0.005    0.000 {method 'search' of 're.Pattern' objects}
+     3207    0.003    0.000    0.004    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:809(pushTag)
+     2519    0.003    0.000    0.004    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/__init__.py:91(_replace_charref)
+    20882    0.004    0.000    0.004    0.000 {method 'append' of 'list' objects}
+     9488    0.003    0.000    0.003    0.000 {method 'count' of 'str' objects}
+    17059    0.003    0.000    0.003    0.000 {method 'lower' of 'str' objects}
+     3206    0.003    0.000    0.003    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:786(popTag)
+    16964    0.003    0.000    0.003    0.000 {method 'get' of 'dict' objects}
+    17077    0.003    0.000    0.003    0.000 {method 'end' of 're.Match' objects}
+22664/22660    0.003    0.000    0.003    0.000 {built-in method builtins.isinstance}
+     3115    0.001    0.000    0.003    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:222(handle_data)
+     7001    0.002    0.000    0.003    0.000 {built-in method builtins.next}
+     1795    0.001    0.000    0.003    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:627(_match_attribute_value_helper)
+     1815    0.002    0.000    0.003    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:906(_linkage_fixer)
+     3238    0.003    0.000    0.003    0.000 {built-in method __new__ of type object at 0x103573cf0}
+        2    0.000    0.000    0.002    0.001 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__init__.py:71(search_function)
+     7311    0.002    0.000    0.002    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:426(inner)
+        2    0.000    0.000    0.002    0.001 {built-in method builtins.__import__}
+      3/2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:1349(_find_and_load)
+      3/2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+        1    0.000    0.000    0.002    0.002 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:377(prepare_markup)
+        1    0.000    0.000    0.002    0.002 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:775(__init__)
+      3/2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:911(_load_unlocked)
+      3/2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap_external>:1020(exec_module)
+        1    0.000    0.000    0.002    0.002 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:930(_convert_from)
+     2540    0.002    0.000    0.002    0.000 {method 'findall' of 're.Pattern' objects}
+        1    0.002    0.002    0.002    0.002 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:969(_to_unicode)
+      128    0.000    0.000    0.002    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_markupbase.py:165(parse_comment)
+    59/57    0.000    0.000    0.002    0.000 {method 'encode' of 'str' objects}
+     3244    0.001    0.000    0.002    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:1065(handle_data)
+     9843    0.002    0.000    0.002    0.000 {method 'startswith' of 'str' objects}
+     3410    0.001    0.000    0.002    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:292(matches_string)
+     3206    0.001    0.000    0.002    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:1820(is_empty_element)
+      128    0.000    0.000    0.002    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:285(handle_comment)
+       60    0.000    0.000    0.002    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:127(handle_startendtag)
+      936    0.001    0.000    0.001    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+        1    0.000    0.000    0.001    0.001 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/ssl_.py:225(create_urllib3_context)
+11088/11081    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     7014    0.001    0.000    0.001    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:2771(descendants)
+     6511    0.001    0.000    0.001    0.000 {method 'start' of 're.Match' objects}
+        1    0.000    0.000    0.001    0.001 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:430(__new__)
+      6/4    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+      3/2    0.000    0.000    0.001    0.001 {built-in method builtins.exec}
+       56    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__init__.py:287(compile)
+       56    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__init__.py:330(_compile)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1093(get_code)
+        1    0.000    0.000    0.001    0.001 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:1(<module>)
+     4104    0.001    0.000    0.001    0.000 {method 'join' of 'str' objects}
+    10587    0.001    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:2371(cast)
+      936    0.001    0.000    0.001    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+        9    0.000    0.000    0.001    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:226(handle_charref)
+        3    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:743(compile)
+       22    0.000    0.000    0.001    0.000 {method 'decode' of 'bytearray' objects}
+     4373    0.001    0.000    0.001    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:259(_base_match)
+        3    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1214(get_data)
+       55    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:123(set_cdata_mode)
+     6685    0.001    0.000    0.001    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:2227(__bool__)
+     3207    0.001    0.000    0.001    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/__init__.py:636(set_up_substitutions)
+     3207    0.001    0.000    0.001    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/__init__.py:290(can_be_empty_element)
+     3218    0.001    0.000    0.001    0.000 {method 'strip' of 'str' objects}
+     3088    0.001    0.000    0.001    0.000 {method 'keys' of 'dict' objects}
+     3226    0.001    0.000    0.001    0.000 {method 'endswith' of 'str' objects}
+        1    0.000    0.000    0.001    0.001 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:231(_parse_header_lines)
+        3    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:576(_code)
+        1    0.000    0.000    0.001    0.001 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/parser.py:56(parsestr)
+     3272    0.001    0.000    0.001    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.001    0.001 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/parser.py:41(parse)
+     1063    0.000    0.000    0.001    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:2168(get)
+     3206    0.001    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_markupbase.py:36(getpos)
+      963    0.000    0.000    0.001    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:321(matches_tag)
+      937    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:744(readable)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:173(feed)
+     2454    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+     3034    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:127(clear_cdata_mode)
+     1874    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1117(_checkClosed)
+     2373    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+      938    0.000    0.000    0.000    0.000 {method '__exit__' of 'memoryview' objects}
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:241(_optimize_charset)
+        5    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:178(_call_parse)
+      7/3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:37(_compile)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:970(parse)
+        5    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:218(_parsegen)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:514(_compile_info)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:451(_parse_sub)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1240(_find_spec)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/weakref.py:585(__call__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:1170(_close_pool_connections)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:511(_parse)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1551(find_spec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:782(_compile_bytecode)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:320(close)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1522(_get_spec)
+      991    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1015(close)
+        3    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:102(push)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/_collections.py:240(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1624(find_spec)
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:501(close)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1361(_real_close)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/url.py:367(parse_url)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/poolmanager.py:276(connection_from_host)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:369(request)
+        3    0.000    0.000    0.000    0.000 {built-in method _io.open_code}
+       25    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:695(__call__)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:2692(find)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/poolmanager.py:305(connection_from_context)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:256(parse_html_declaration)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/_collections.py:335(extend)
+        4    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:378(__init__)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1634(__getitem__)
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1594(__or__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:472(_parse_headers)
+       25    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1154(__new__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/poolmanager.py:330(connection_from_pool_key)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:294(handle_decl)
+        4    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:1(<module>)
+        6    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/url.py:227(_encode_invalid_chars)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/poolmanager.py:229(_new_pool)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:666(reset)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:980(__init__)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1457(_missing_)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:175(__init__)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:145(_path_stat)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1658(copy_with)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/stringprep.py:1(<module>)
+       10    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:425(_close_conn)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1423(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:806(module_from_spec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(__enter__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:497(_real_close)
+     15/3    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1374(__instancecheck__)
+     15/3    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        1    0.000    0.000    0.000    0.000 {function socket.close at 0x102d6a3e0}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:335(putrequest)
+        1    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:256(_get_conn)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1665(__subclasscheck__)
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:498(get)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:733(_init_module_attrs)
+       24    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/_policybase.py:301(header_source_parse)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:593(encodings)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1138(putrequest)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:145(__exit__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:140(put)
+      133    0.000    0.000    0.000    0.000 {method 'rindex' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:600(get_content_type)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:782(close)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:513(cache_from_source)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:1044(_new_conn)
+       30    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/_policybase.py:319(header_fetch_parse)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:2128(getLogger)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(acquire)
+        3    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:355(putheader)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:294(_put_conn)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:741(_error_catcher)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1322(endheaders)
+        6    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        4    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/url.py:301(_normalize_host)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:632(cached)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:487(items)
+       18    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1368(__setattr__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:347(__init__)
+       55    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:199(__get__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1361(getLogger)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1084(_send_output)
+       30    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/_policybase.py:289(_sanitize_header)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1605(__and__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:683(find_declared_encoding)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:642(_get_cached)
+       23    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:131(_path_join)
+       24    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/_collections.py:300(add)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1307(__init__)
+       30    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:129(__next__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/src/ex04/financial_enhanced.py:44(data_processing)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:566(__init__)
+       50    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:167(__getitem__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1029(send)
+       18    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:490(_make_match_rules)
+       29    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:2181(get_attribute_list)
+       31    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:260(get)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:221(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:84(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:184(close)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:624(get_content_maintype)
+       33    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1587(_get_value)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/url.py:349(_encode_target)
+        6    0.000    0.000    0.000    0.000 <frozen _collections_abc>:808(get)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/response.py:40(assert_header_parsing)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1252(sendall)
+       31    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1294(putheader)
+       25    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1437(_iter_member_by_value_)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:555(options)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/__init__.py:108(lookup)
+        1    0.000    0.000    0.000    0.000 {method '_wrap_socket' of '_ssl._SSLContext' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:81(__init__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__init__.py:43(normalize_encoding)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1619(_get_spec)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:132(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:261(__init__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:389(_mk_bitmap)
+      7/3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:177(getwidth)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:180(get)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:524(get_text)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:316(__init__)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1639(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:540(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+       93    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/__init__.py:204(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:426(_get_module_lock)
+       30    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:79(readline)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:164(_path_isfile)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:162(__enter__)
+       31    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/utils.py:47(_has_surrogates)
+       34    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:239(__next)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:988(find_codec)
+        6    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:439(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:86(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/poolmanager.py:95(_default_key_normalizer)
+        9    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:1881(_all_strings)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:137(_path_split)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       10    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:100(_intenum_converter)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:179(encode)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:304(makefile)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1225(send)
+       18    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1294(_is_dunder)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:420(__exit__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:155(_path_is_mode_type)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:214(_compile_charset)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:173(_type_check)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:46(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:833(spec_from_file_location)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:139(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1497(debug)
+       36    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:243(get_payload)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:469(_decode)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:124(setdefault)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(release)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/url.py:263(_remove_path_dot_segments)
+        5    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:266(handle_entityref)
+        5    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:14(decode)
+       22    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:175(append)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:867(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/retry.py:387(is_retry)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:1145(_normalize_host)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:441(_encode_hostname)
+        9    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/url.py:330(_idna_encode)
+      108    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1233(path_stats)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1409(_fixupParents)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:398(notify)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:1005(_codec)
+        8    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/poolmanager.py:199(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:697(_classify_pyc)
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       55    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1335(value)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/collections/__init__.py:599(__init__)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:89(_unpack_uint32)
+       34    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       14    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       30    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+       11    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/util.py:19(to_str)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:396(_check_close)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:730(_validate_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1477(__init__)
+       24    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:515(set_raw)
+        5    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:303(__enter__)
+        2    0.000    0.000    0.000    0.000 {function SocketIO.close at 0x102d6b1a0}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:504(set_alpn_protocols)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:430(close)
+       55    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:2280(__eq__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:394(_bytes_to_codes)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:401(_simple)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1764(isEnabledFor)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:346(_get_timeout)
+       24    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:29(_splitparam)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:281(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:685(_init_length)
+       25    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:115(_iter_bits_lsb)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:576(_usable)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:303(helper)
+        4    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/_collections.py:257(__getitem__)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/url.py:100(__new__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:96(reset)
+        3    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/timeout.py:109(__init__)
+       24    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/weakref.py:568(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:33(getregentry)
+       15    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:163(__len__)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:230(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method today}
+        5    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:306(__exit__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/ssl_.py:484(is_ipaddress)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:378(getregentry)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/timeout.py:188(clone)
+        5    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:450(_init_decoder)
+       20    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/connection.py:93(_set_socket_options)
+       25    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/timeout.py:172(from_float)
+        8    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.lookup}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/retry.py:379(_is_method_retryable)
+        2    0.000    0.000    0.000    0.000 <frozen codecs>:94(__new__)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:318(_is_owned)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1128(find_spec)
+       21    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_iscased}
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:292(__subclasshook__)
+        5    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:163(host)
+        3    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:669(verify_mode)
+        3    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/ssl_.py:186(resolve_cert_reqs)
+       44    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/collections/__init__.py:613(__missing__)
+       13    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:445(cb)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__new__)
+        6    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:645(strip_byte_order_mark)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:139(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/_collections.py:100(__setitem__)
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:292(tell)
+        1    0.000    0.000    0.000    0.000 <frozen os>:711(__getitem__)
+        3    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/timeout.py:126(resolve_default_timeout)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/_collections.py:82(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:136(__enter__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:694(__init__)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:123(pushlines)
+       25    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        5    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:657(_last_descendant)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:371(_escape)
+       29    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/__init__.py:680(<genexpr>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:982(find_spec)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:431(_get_iscased)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:410(_generate_overlap_table)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:404(retries)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/request.py:191(body_to_chunks)
+       24    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:491(_verbose_message)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:541(minimum_version)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:71(close)
+        5    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        4    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:2877(__init__)
+        5    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:306(_qsize)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:197(_new_message)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:54(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:491(_decref_socketios)
+       16    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:255(match)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1226(__exit__)
+        6    0.000    0.000    0.000    0.000 {method 'subn' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:309(_put)
+        6    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:357(<genexpr>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:674(_check_name_wrapper)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:573(isstring)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:517(family)
+        1    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/src/ex04/financial_enhanced.py:10(check_url)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1222(__enter__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_markupbase.py:27(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:190(_path_abspath)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:108(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:645(parent)
+        5    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+        7    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:954(fix_flags)
+       13    0.000    0.000    0.000    0.000 <frozen _collections_abc>:439(__subclasshook__)
+        8    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1066(_output)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:200(__new__)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:404(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:108(_check_methods)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/_collections.py:93(__getitem__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:351(get_redirect_location)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:260(_collect_type_parameters)
+       16    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        9    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:1092(closed)
+        3    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       15    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+       11    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_tolower}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:150(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:82(groups)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:442(flush)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:507(detach)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:211(is_multipart)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
+       15    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        3    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:448(_uniq)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1269(_validate_method)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_build}
+        3    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1500(_path_importer_cache)
+        4    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1286(_validate_host)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:559(options)
+        4    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_markupbase.py:32(reset)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:312(_get)
+        7    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:112(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:113(close)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/timeout.py:202(start_connect)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:949(_wrap_ipv6)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:641(release_conn)
+        3    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+        6    0.000    0.000    0.000    0.000 {method 'count' of 'bytes' objects}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+        2    0.000    0.000    0.000    0.000 {method 'tolist' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/timeout.py:245(read_timeout)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:185(_path_isabs)
+        9    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        1    0.000    0.000    0.000    0.000 <frozen os>:793(encode)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:164(_type_convert)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/ssl_.py:209(resolve_ssl_version)
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        3    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/__init__.py:765(_initialize_xml_detector)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:76(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 {method 'seek' of '_io.StringIO' objects}
+        4    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.OrderedDict' objects}
+        9    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/timeout.py:130(_validate_timeout)
+        3    0.000    0.000    0.000    0.000 {built-in method _socket.getdefaulttimeout}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:661(verify_flags)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:205(_checkLevel)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1427(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:523(type)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:470(_get_charset_prefix)
+        8    0.000    0.000    0.000    0.000 {method 'isalpha' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/request.py:136(set_file_position)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1750(getEffectiveLevel)
+        4    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:245(__init__)
+        4    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/filter.py:437(includes_everything)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:677(verify_mode)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1278(_validate_path)
+        1    0.000    0.000    0.000    0.000 {method '_set_alpn_protocols' of '_ssl._SSLContext' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:335(set_payload)
+        5    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:344(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/dammit.py:979(declared_html_encoding)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:653(has_location)
+        4    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:9(Codec)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:819(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:569(hostname_checks_common_name)
+        3    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:171(__setitem__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1265(_encode_request)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/parser.py:17(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/__init__.py:311(deprecated_argument)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:178(Codec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:599(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:210(_pop_message)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:453(isclosed)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:272(IncrementalEncoder)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:122(RLock)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/url.py:121(request_uri)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1301(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/connection.py:103(allowed_gai_family)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/poolmanager.py:374(_merge_pool_kwargs)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/__init__.py:791(_root_tag_encountered)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/__init__.py:274(initialize_soup)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/retry.py:270(from_int)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:659(data)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/_request_methods.py:51(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:313(proxy_is_tunneling)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/element.py:2231(__setitem__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/response.py:499(_flush_decoder)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:665(verify_flags)
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        3    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        3    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/timeout.py:227(connect_timeout)
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:306(proxy_is_forwarding)
+        2    0.000    0.000    0.000    0.000 {built-in method sys.audit}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1184(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:292(is_closed)
+        2    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/bs4/builder/__init__.py:282(reset)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/collections/__init__.py:673(update)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connectionpool.py:337(_validate_conn)
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:316(IncrementalDecoder)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:17(IncrementalEncoder)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:21(IncrementalDecoder)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:926(_get_hostport)
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:303(_init)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1209(get_filename)
+        1    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:25(StreamWriter)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:28(StreamReader)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:370(StreamWriter)
+        1    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/connection.py:182(host)
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1353(disable)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/poolmanager.py:396(_proxy_requires_url_absolute_form)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:373(StreamReader)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1017(create_module)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:126(__iter__)
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {function socket.detach at 0x102d6a480}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1121(_check_connected)
+        1    0.000    0.000    0.000    0.000 /Users/polina/DS_bootcamp/DS_Bootcamp.Day03.ID_886513-1/pasquald/lib/python3.13/site-packages/urllib3/util/proxy.py:11(connection_requires_http_tunnel)
+        1    0.000    0.000    0.000    0.000 {function HTTPResponse.flush at 0x102e5b9c0}
+
+
